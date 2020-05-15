@@ -107,9 +107,10 @@ button:focus {
     background-color: blueviolet;
 }
 
-.cursor {
+/* .cursor {
     font-size: 2em;
     animation: 1s blink step-end infinite;
+    position: absolute;
 }
 
 @keyframes blink {
@@ -119,5 +120,5 @@ button:focus {
     50% {
       color: #3f72af;
     }
-  }
+  } */
 

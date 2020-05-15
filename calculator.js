@@ -89,3 +89,7 @@ buttonList.forEach((button) => (
 ))
 
 window.addEventListener('keydown', keyCheck);
+
+window.addEventListener('load', () => {
+    updateLive(0);
+})
