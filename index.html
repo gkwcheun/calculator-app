@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class='container'>
+        <div class='display'>
+            <p id='live'class='live-view'></p>
+            <!-- <span class='cursor'>|</span> -->
+            <p id='out' class='output'></p>
+        </div>
+        <div class='calc-grid'>
+            <div class='number-keys'>
+                <button class='num number-7' data-key = "7">7</button>
+                <button class='num number-8' data-key = "8">8</button>
+                <button class='num number-9' data-key = "9">9</button>
+                <button class='num number-4' data-key = "4">4</button>
+                <button class='num number-5' data-key = "5">5</button>
+                <button class='num number-6' data-key = "6">6</button>
+                <button class='num number-1' data-key = "1">1</button>
+                <button class='num number-2' data-key = "2">2</button>
+                <button class='num number-3' data-key = "3">3</button>
+                <button class='num dot' data-key = ".">.</button>
+                <button class='num number-0' data-key = "0">0</button>
+                <button id='equal' class='num equal' data-key = "=">=</button>
+            </div>
+            <div class='function-keys'>
+                <button id='ce' class='ce' data-key='Backspace'>CE</button>
+                <button id='ac' class='ac' >AC</button>
+                <button class='divide' data-key='/'>/</button>
+                <button class='multiply' data-key='*'>*</button>
+                <button class='subtract' data-key='-'>-</button>
+                <button class='add' data-key='+'>+</button>
+            </div>
+        </div>
+    </div>
+    <script src='calculator.js'></script>
+</body>
+</html>
